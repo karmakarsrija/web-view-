@@ -1,4 +1,4 @@
-package com.com.coviddetection;
+package example.com.webview;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         webSetting.setJavaScriptEnabled(true);
         webSetting.setDisplayZoomControls(true);
         webview.getSettings().setBuiltInZoomControls(true);
-        webview.loadUrl("http://192.168.0.7/covid19-added/registration.php");
+        webview.loadUrl("https://...");  // give the url of the web page.https://your-ip-address/project-name.
 
     }
 
